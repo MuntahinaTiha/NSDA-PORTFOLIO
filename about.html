@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Portfolio</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="portfolio-page.html" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="service-page.html" class="nav-link">Service</a></li>
+            <li class="nav-item"><a href="contact-page.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="pageTitle">
+      <div class="container">
+        <h1 class="text-center">About Me</h1>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc
+          efficitur commodo.</p>
+      </div>
+    </section>
+    <section id="about">
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./profile.jfif" class="img-fluid" alt="Profile Image">
+          </div>
+          <div class="col-md-6">
+            <h2 class="text-center">About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur commodo.
+              Curabitur at felis nec enim efficitur tincidunt.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="clientFeedback">
+      <div class="container">
+        <h2 class="text-center mb-4">Existing Client</h2>
+        <div class="row p-2">
+          <div class="col-lg-4 card">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-md-4">
+                  <img src="./clientImg.png" class="card-img-top" alt="Client Image">
+                </div>
+                <div class="col-md-8">
+                  <h5 class="card-title">Client Name</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Client Title</h6>
+                </div>
+              </div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+                content.</p>
+
+            </div>
+          </div>
+          <div class="col-lg-4 card">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-md-4">
+                  <img src="./clientImg.png" class="card-img-top" alt="Client Image">
+                </div>
+                <div class="col-md-8">
+                  <h5 class="card-title">Client Name</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Client Title</h6>
+                </div>
+              </div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+                content.</p>
+
+            </div>
+          </div>
+          <div class="col-lg-4 card">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-md-4">
+                  <img src="./clientImg.png" class="card-img-top" alt="Client Image">
+                </div>
+                <div class="col-md-8">
+                  <h5 class="card-title">Client Name</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Client Title</h6>
+                </div>
+              </div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+                content.</p>
+
+            </div>
+          </div>
+
+        </div>
+    </section>
+    <section id="service">
+      <div class="container">
+        <h2 class="text-center">My Skills</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="./images1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Frontend</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card’s content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="./img 2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Backend</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card’s content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="./img 3.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Website SEO</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card’s content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-white text-dark text-center p-3">
+    <p>© 2026 My Portfolio</p>
+    <p id="time"></p>
+  </footer>
+
+  <script src="./app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

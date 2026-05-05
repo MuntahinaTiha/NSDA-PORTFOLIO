@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Portfolio</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="portfolio-page.html" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="service-page.html" class="nav-link">Service</a></li>
+            <li class="nav-item"><a href="contact-page.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://www.outbrain.com/blog/wp-content/uploads/2020/03/OB-Blog-Carousel-Ads-Master-1200x675-1.jpg"
+                  class="img-fluid m-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://www.outbrain.com/blog/wp-content/uploads/2020/03/OB-Blog-Carousel-Ads-Master-1200x675-1.jpg"
+                  class="d-block img-fluid m-auto" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://www.outbrain.com/blog/wp-content/uploads/2020/03/OB-Blog-Carousel-Ads-Master-1200x675-1.jpg"
+                  class="d-block img-fluid m-auto" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./profile.jfif" class="img-fluid" alt="Profile Image">
+          </div>
+          <div class="col-md-6 pt-5">
+            <h2 class="text-center">About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur commodo.
+              Curabitur at felis nec enim efficitur tincidunt.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="personalVision">
+      <div class="container">
+        <h2 class="text-center">Personal Vision</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur commodo.
+          Curabitur at felis nec enim efficitur tincidunt.</p>
+      </div>
+    </section>
+    <section id="service">
+      <div class="container">
+        <h2 class="text-center">Services</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKkiuIjE3VzBaN-cuh1Amqe9fi29SOro9HoA&s"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Frontend</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card’s content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RXQ_pEz5vSaj2PHy9lI5nLn1qJC5TYt5gw&s"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Backend</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card’s content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://img.freepik.com/free-vector/seo-optimization-banner_33099-1690.jpg?semt=ais_hybrid&w=740&q=80"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Website SEO</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card’s content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="clientFeedback">
+      <div class="container">
+        <h2 class="text-center mb-4">Client Feedback</h2>
+        <div class="row p-2">
+          <div class="col-lg-4 card">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-md-4">
+                  <img src="./clientImg.png" class="card-img-top" alt="Client Image">
+                </div>
+                <div class="col-md-8">
+                  <h5 class="card-title">Client Name</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Client Title</h6>
+                </div>
+              </div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+                content.</p>
+
+            </div>
+          </div>
+          <div class="col-lg-4 card">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-md-4">
+                  <img src="./clientImg.png" class="card-img-top" alt="Client Image">
+                </div>
+                <div class="col-md-8">
+                  <h5 class="card-title">Client Name</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Client Title</h6>
+                </div>
+              </div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+                content.</p>
+
+            </div>
+          </div>
+          <div class="col-lg-4 card">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-md-4">
+                  <img src="./clientImg.png" class="card-img-top" alt="Client Image">
+                </div>
+                <div class="col-md-8">
+                  <h5 class="card-title">Client Name</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">Client Title</h6>
+                </div>
+              </div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+                content.</p>
+
+            </div>
+          </div>
+
+        </div>
+    </section>
+  </main>
+
+
+  <footer class="bg-white text-dark text-center p-3">
+    <p>© 2026 My Portfolio</p>
+    <p id="time"></p>
+  </footer>
+
+  <script src="./app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
