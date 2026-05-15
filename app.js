@@ -17,12 +17,16 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   let phone = document.getElementById("phone").value;
   let address = document.getElementById("address").value;
   let message = document.getElementById("message").value;
+  
 
-  // Simple validation
+    // Simple validation
   if(name == "" || email == "" || phone == "" || address == "" || message == "") {
     alert("Please fill all fields");
   } else {
+    document.getElementById("contactForm").reset();
     alert("Form submitted successfully!");
   }
 
 });
+
+
